@@ -1,0 +1,7 @@
+Note that you should run setup.py before deploying the server.
+The environment for this back-end sever is Ubuntu + Apache + PHP
+In order to make this server part running, you need to copy this code to /var/www/
+The Upload.php is used for receiving data from the cellphone and apply the multiple CNN model on it to get the emotion code and return to the cellphone. 
+The index.php is used for viewing the uploaded image from browser, the address is http://192.168.2.34/
+The other python files are the same as those in Model directory.
+If you have any problem deploying the server, the most possible reason is you don't add the permission for the directory, try the command "sudo chmod 0777 /var/www/"
