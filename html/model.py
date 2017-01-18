@@ -57,7 +57,7 @@ def model_ICML():
     model.compile(loss='categorical_crossentropy',
                   optimizer=ada,
                   metrics=['accuracy'])
-    model.summary()
+    #model.summary()
     return model
 
 def model_VGG_face():
@@ -107,7 +107,7 @@ def model_VGG_face():
     model.compile(loss='categorical_crossentropy',
                   optimizer=ada,
                   metrics=['accuracy'])
-    model.summary()
+    #model.summary()
     return model
 
 def model_VGG_19_face():
@@ -165,7 +165,7 @@ def model_VGG_19_face():
     model.compile(loss='categorical_crossentropy',
                   optimizer=ada,
                   metrics=['accuracy'])
-    model.summary()
+    #model.summary()
     return model
 
 
